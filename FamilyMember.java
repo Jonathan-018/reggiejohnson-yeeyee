@@ -19,7 +19,7 @@ public class FamilyMember implements Person {
     String gender = "";
     int gains; //Gains measured from 0-9 - used for fighting.
     
-    
+    //method for family member
     public FamilyMember(String name, String gender, int gains){
         this.name = name;
         this.gender = gender;
